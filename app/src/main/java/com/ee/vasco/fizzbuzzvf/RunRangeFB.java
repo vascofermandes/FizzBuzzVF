@@ -3,7 +3,7 @@ package com.ee.vasco.fizzbuzzvf;
 /**
  * Created by Vasco on 22/06/2016.
  */
-public class RunRangeFF {
+public class RunRangeFB {
 
     public static String step1 (int min, int max, boolean report){
         String res = "";

@@ -1,19 +1,9 @@
 package com.ee.vasco.fizzbuzzvf;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.test.suitebuilder.annotation.LargeTest;
-import android.text.Editable;
-import android.text.InputType;
-import android.text.TextWatcher;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.EditText;
+
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -42,10 +32,10 @@ public class ResultActivity extends AppCompatActivity {
 
 
         if (step1) {
-            res.setText(RunRangeFF.step1((int)min,(int) max, report));
+            res.setText(RunRangeFB.step1((int)min,(int) max, report));
         }
         if(step2)
-            res.setText(RunRangeFF.step2((int)min, (int)max, report));
+            res.setText(RunRangeFB.step2((int)min, (int)max, report));
 
     }
 
@@ -60,10 +50,10 @@ public class ResultActivity extends AppCompatActivity {
                     Toast.LENGTH_SHORT).show();
 
         if (data.hasExtra("step1")) {
-            res.setText(RunRangeFF.step1(min, max, report));
+            res.setText(RunRangeFB.step1(min, max, report));
         }
         else
-            res.setText(RunRangeFF.step2(min, max, report));
+            res.setText(RunRangeFB.step2(min, max, report));
     }
 
 }
