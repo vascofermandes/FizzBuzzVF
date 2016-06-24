@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FizzBuzz</string>
+
+    <!-- Strings related to app -->
+    <string name="prompt_min">Min Value</string>
+    <string name="prompt_max">Max Value</string>
+    <string name="error_incorrect_number">Numbers should be between 1-99.999</string>
+    <string name="error_field_required">Max and Min Values fields are required</string>
+    <string name="error_invalid_range">"Max range is 100"</string>
+    <string name="action_run1">"Run Step1"</string>
+    <string name="action_run2">"Run Step2"</string>
+
+
+</resources>
